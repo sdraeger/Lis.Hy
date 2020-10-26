@@ -149,4 +149,5 @@
 			(setv args (lfor  exp (cut x 1)  (eval exp env)))
 			(proc #* args))))
 
+;;; TODO: Do not throw when we enter an atom to the REPL
 (repl)
